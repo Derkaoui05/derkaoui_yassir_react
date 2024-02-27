@@ -1,0 +1,49 @@
+.active{
+    color: red;
+}
+
+h1,h2,h3{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 5%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%;
+    margin-top: 20Px;
+    align-items: center;
+}
+label{
+    font-weight: 700;
+    color: #15bb86;
+}
+footer{
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top:  40%; ;
+    display: flex;
+    flex-direction: row;
+}
+footer p{
+    font-size: 2rem;
+}
+footer p span{
+    background: linear-gradient(
+        to right,blue,red
+    );
+    color: transparent;
+    background-clip: text;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+button{
+    padding: 10px 20px;
+    background: #15bb86;
+    border: none;
+    border: 8px;
+    margin-left: 40%;
+    margin-top: 20Px;
+}
